@@ -13,3 +13,13 @@ const chunk = (arr, size) => {
 
 // 2D to 1D
 // arr.flat()
+
+// Convert index to position
+const getPositionFromIndex = (index, width) => ({
+  x: index / width,
+  y: index % width,
+})
+
+// Convert position to index
+const convertPositionToIndex = (position, width) =>
+  position.x + width * position.y
