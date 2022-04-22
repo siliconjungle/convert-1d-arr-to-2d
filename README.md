@@ -1,2 +1,2 @@
-# convert-2d-arr-to-1d
-Convert 2D array to 1D.
+# convert-1d-arr-to-2d
+Convert 1D array to 2D.
