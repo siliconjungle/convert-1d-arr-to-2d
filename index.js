@@ -21,5 +21,5 @@ const getPositionFromIndex = (index, width) => ({
 })
 
 // Convert position to index
-const convertPositionToIndex = (position, width) =>
+const getIndexFromPosition = (position, width) =>
   position.x + width * position.y
