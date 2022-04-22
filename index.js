@@ -1,4 +1,4 @@
-// 2D to 1D
+// 1D to 2D
 const chunk = (arr, size) => {
   let idx = 0
   const result = []
@@ -11,5 +11,5 @@ const chunk = (arr, size) => {
   return result
 }
 
-// 1D to 2D
+// 2D to 1D
 // arr.flat()
